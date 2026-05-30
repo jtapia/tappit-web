@@ -1,5 +1,5 @@
 /**
- * Tappit license issuer.
+ * TappitX license issuer.
  *
  * Routes:
  *   POST /webhook           Stripe checkout.session.completed → issue license

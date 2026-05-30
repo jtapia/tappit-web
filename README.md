@@ -1,4 +1,4 @@
-# Tappit
+# TappitX
 
 Tap-to-click for Apple Magic Mouse. A lightweight macOS menu bar utility that converts surface taps into real mouse clicks — with pressure-sensitive right-clicks, configurable zones, haptic feedback, and per-app rules.
 

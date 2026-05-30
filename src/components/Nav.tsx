@@ -67,7 +67,7 @@ export default function Nav() {
         <div className="max-w-[1120px] mx-auto px-6 h-[60px] flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2.5 -m-1 p-1 rounded-lg">
             <Image src="/app-icon.png" alt="" width={28} height={28} className="rounded-md" aria-hidden="true" />
-            <span className="text-lg font-bold tracking-tight">Tappit</span>
+            <span className="text-lg font-bold tracking-tight">TappitX</span>
           </Link>
           <div className="flex items-center gap-5 sm:gap-6 text-sm text-muted">
             {navLinks.map((link) => (
@@ -86,7 +86,7 @@ export default function Nav() {
               href={primaryHref}
               className="hidden sm:inline-block gradient-bg text-white px-4 py-2 rounded-full text-sm font-semibold hover:opacity-90 transition-opacity shadow-md shadow-accent/20"
             >
-              Buy Tappit
+              Buy TappitX
             </a>
             <button
               onClick={() => setMenuOpen((v) => !v)}
@@ -139,7 +139,7 @@ export default function Nav() {
                   onClick={() => setMenuOpen(false)}
                   className="mt-2 text-center gradient-bg text-white px-4 py-2.5 rounded-full text-sm font-semibold hover:opacity-90 transition-opacity"
                 >
-                  Buy Tappit
+                  Buy TappitX
                 </a>
               </div>
             </motion.div>
@@ -160,7 +160,7 @@ export default function Nav() {
             href={primaryHref}
             className="block text-center gradient-bg text-white px-6 py-3 rounded-xl text-sm font-semibold shadow-lg shadow-accent/30"
           >
-            Buy Tappit
+            Buy TappitX
           </a>
         </motion.div>
       )}

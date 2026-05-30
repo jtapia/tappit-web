@@ -40,7 +40,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg text-muted leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
-            Your MacBook trackpad has tap-to-click. Your Magic Mouse should too. Tappit adds a lighter, kinder way to click, easier on your hands, with smart right-click, haptics, and feedback that feels like it shipped from Apple.
+            Your MacBook trackpad has tap-to-click. Your Magic Mouse should too. TappitX adds a lighter, kinder way to click, easier on your hands, with smart right-click, haptics, and feedback that feels like it shipped from Apple.
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch lg:items-start gap-3 mb-6 w-full">
@@ -48,7 +48,7 @@ export default function Hero() {
               href={primaryHref}
               className="gradient-bg text-white w-full sm:flex-1 px-4 sm:px-7 py-3 sm:py-3.5 rounded-xl font-semibold text-sm sm:text-base flex items-center justify-center gap-2 shadow-lg shadow-accent/25 hover:shadow-accent/40 hover:-translate-y-0.5 transition-all"
             >
-              Buy Tappit
+              Buy TappitX
             </a>
             <a
               href="#how-it-works"

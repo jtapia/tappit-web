@@ -8,8 +8,8 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between gap-6 md:gap-10">
           <div>
             <div className="flex items-center gap-2.5">
-              <Image src="/app-icon.png" alt="Tappit" width={24} height={24} className="rounded-md" />
-              <span className="text-lg font-bold">Tappit</span>
+              <Image src="/app-icon.png" alt="TappitX" width={24} height={24} className="rounded-md" />
+              <span className="text-lg font-bold">TappitX</span>
             </div>
             <p className="text-sm text-dim mt-2 max-w-xs">Tap to click, right where you already work. A small, quiet, beautifully native Mac app.</p>
           </div>
@@ -37,7 +37,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-10 pt-5 border-t border-border">
-          <p className="text-xs text-dim text-center">&copy; {new Date().getFullYear()} Tappit. All rights reserved.</p>
+          <p className="text-xs text-dim text-center">&copy; {new Date().getFullYear()} TappitX. All rights reserved.</p>
         </div>
       </div>
     </footer>

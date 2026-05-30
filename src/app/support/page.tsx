@@ -4,8 +4,8 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Support | Tappit",
-  description: "Get help with Tappit. Find answers to common questions, troubleshooting tips, and contact support.",
+  title: "Support | TappitX",
+  description: "Get help with TappitX. Find answers to common questions, troubleshooting tips, and contact support.",
 };
 
 export default function Support() {
@@ -29,7 +29,7 @@ export default function Support() {
           <h1 className="text-4xl lg:text-5xl font-bold tracking-tight mb-3">Support</h1>
           <p className="text-sm text-dim mb-6">We&apos;re here to help</p>
           <p className="prose-lead">
-            Tappit is designed to be simple and stay out of your way. If you run into anything, this page should cover it.
+            TappitX is designed to be simple and stay out of your way. If you run into anything, this page should cover it.
           </p>
         </header>
 
@@ -41,7 +41,7 @@ export default function Support() {
 
           <h2>Refund policy</h2>
           <p>
-            Not happy with Tappit? Email us within 30 days of your purchase and we&apos;ll refund you in full, no questions asked.
+            Not happy with TappitX? Email us within 30 days of your purchase and we&apos;ll refund you in full, no questions asked.
           </p>
 
           <h2>Frequently asked questions</h2>
@@ -51,22 +51,22 @@ export default function Support() {
             Yes. Both Magic Mouse 1 and Magic Mouse 2 work for tap detection. The battery indicator in the menu bar requires Magic Mouse 2, since the original model doesn&apos;t report battery level.
           </p>
 
-          <h3>What permissions does Tappit need?</h3>
+          <h3>What permissions does TappitX need?</h3>
           <p>
-            Just one: Accessibility. macOS requires it for any app that creates synthetic mouse clicks. Tappit walks you through enabling it on first launch and uses it exclusively for click injection.
+            Just one: Accessibility. macOS requires it for any app that creates synthetic mouse clicks. TappitX walks you through enabling it on first launch and uses it exclusively for click injection.
           </p>
 
-          <h3>Does Tappit change my system mouse settings?</h3>
+          <h3>Does TappitX change my system mouse settings?</h3>
           <p>
-            No. Tappit works alongside System Settings without touching them. Your scroll speed, tracking speed, and Magic Mouse gestures stay exactly as they were.
+            No. TappitX works alongside System Settings without touching them. Your scroll speed, tracking speed, and Magic Mouse gestures stay exactly as they were.
           </p>
 
           <h3>Is it a subscription?</h3>
           <p>
-            No. Tappit is a one-time purchase. Pay once and it&apos;s yours, including future updates. No recurring charge, no account.
+            No. TappitX is a one-time purchase. Pay once and it&apos;s yours, including future updates. No recurring charge, no account.
           </p>
 
-          <h3>Does Tappit collect any data?</h3>
+          <h3>Does TappitX collect any data?</h3>
           <p>
             Zero. No analytics, no crash reporter, no accounts. The only network traffic is the built-in macOS update check, which you can turn off in Preferences. See our <Link href="/privacy">Privacy Policy</Link> for full details.
           </p>
@@ -75,22 +75,22 @@ export default function Support() {
 
           <h3>Taps aren&apos;t registering</h3>
           <ul>
-            <li>Confirm Tappit is running. Look for the icon in the menu bar.</li>
-            <li>Open <strong>System Settings &gt; Privacy &amp; Security &gt; Accessibility</strong> and make sure Tappit is enabled.</li>
+            <li>Confirm TappitX is running. Look for the icon in the menu bar.</li>
+            <li>Open <strong>System Settings &gt; Privacy &amp; Security &gt; Accessibility</strong> and make sure TappitX is enabled.</li>
             <li>If you recently updated macOS, you may need to toggle the Accessibility permission off and on once.</li>
             <li>Try lowering the tap sensitivity in Preferences if your taps feel too light.</li>
           </ul>
 
           <h3>Smart Zoom is interfering with double-tap</h3>
           <p>
-            macOS Smart Zoom uses double-tap on the mouse surface, which conflicts with Tappit&apos;s double-tap. Open <strong>System Settings &gt; Mouse</strong> and turn off &quot;Smart Zoom.&quot; The first-launch guide also walks you through this.
+            macOS Smart Zoom uses double-tap on the mouse surface, which conflicts with TappitX&apos;s double-tap. Open <strong>System Settings &gt; Mouse</strong> and turn off &quot;Smart Zoom.&quot; The first-launch guide also walks you through this.
           </p>
 
           <h3>The global hotkey doesn&apos;t respond</h3>
           <ul>
             <li>The default toggle hotkey is <strong>&#x2303;&#x2325;&#x2318;T</strong> (Control + Option + Command + T) and is rebindable in Preferences.</li>
             <li>Another app may be using the same shortcut. Check for conflicts and rebind if needed.</li>
-            <li>Make sure Tappit has Accessibility permission.</li>
+            <li>Make sure TappitX has Accessibility permission.</li>
           </ul>
 
           <h3>Right-click feels off</h3>
@@ -107,7 +107,7 @@ export default function Support() {
 
           <h3>Purchase didn&apos;t unlock</h3>
           <ul>
-            <li>Use &quot;Restore Purchases&quot; in the Tappit menu.</li>
+            <li>Use &quot;Restore Purchases&quot; in the TappitX menu.</li>
             <li>Check your email for the license key from your purchase confirmation.</li>
             <li>If you still have trouble, email <a href="mailto:support@gettappit.com">support@gettappit.com</a> with your order ID and we&apos;ll sort it out.</li>
           </ul>

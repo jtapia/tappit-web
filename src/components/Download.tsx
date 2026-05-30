@@ -20,12 +20,12 @@ export default function Download() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <Image src="/app-icon-large.png" alt="Tappit" width={96} height={96} className="mx-auto mb-6 rounded-2xl shadow-lg shadow-accent/10" priority />
+          <Image src="/app-icon-large.png" alt="TappitX" width={96} height={96} className="mx-auto mb-6 rounded-2xl shadow-lg shadow-accent/10" priority />
           <h2 className="text-4xl lg:text-5xl font-bold tracking-tight leading-tight mb-4">
             Ready to stop pressing?
           </h2>
           <p className="text-muted text-lg leading-relaxed mt-4">
-            Buy Tappit for $2.99 and keep it forever. Not happy? 30-day refund, no questions asked.
+            Buy TappitX for $2.99 and keep it forever. Not happy? 30-day refund, no questions asked.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-3 mt-8">
@@ -35,7 +35,7 @@ export default function Download() {
               rel={isExternalStripeLink ? "noopener noreferrer" : undefined}
               className="gradient-bg text-white px-6 py-3 rounded-xl font-semibold shadow-lg shadow-accent/25 hover:shadow-accent/40 hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2"
             >
-              Buy Tappit
+              Buy TappitX
             </a>
           </div>
 

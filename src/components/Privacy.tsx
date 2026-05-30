@@ -24,7 +24,7 @@ export default function Privacy() {
             <span className="block">Your taps stay on your Mac.</span>
           </h2>
           <p className="text-base text-muted leading-relaxed">
-            No accounts. No tracking. No analytics. Your taps, settings, and license never leave your Mac. The only time Tappit talks to the internet is to check for app updates, and you can disable that in Preferences.
+            No accounts. No tracking. No analytics. Your taps, settings, and license never leave your Mac. The only time TappitX talks to the internet is to check for app updates, and you can disable that in Preferences.
           </p>
         </motion.div>
       </div>

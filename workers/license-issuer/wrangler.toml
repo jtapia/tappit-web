@@ -13,7 +13,7 @@ routes = [
 #
 # Non-secret vars below can be overridden per-environment if needed.
 [vars]
-FROM_EMAIL = "Tappit <support@gettappit.com>"
+FROM_EMAIL = "TappitX <support@gettappit.com>"
 SUPPORT_EMAIL = "support@gettappit.com"
 
 [[kv_namespaces]]

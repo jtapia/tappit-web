@@ -1,4 +1,4 @@
-// Tappit ESLint Configuration
+// TappitX ESLint Configuration
 // Using ESLint v9 flat config format with typescript-eslint
 
 const js = require("@eslint/js");

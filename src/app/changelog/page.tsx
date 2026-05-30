@@ -3,8 +3,8 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Changelog | Tappit",
-  description: "Release notes and version history for Tappit.",
+  title: "Changelog | TappitX",
+  description: "Release notes and version history for TappitX.",
   alternates: {
     canonical: "/changelog",
   },
@@ -58,7 +58,7 @@ export default function Changelog() {
       <main id="main-content" className="max-w-[760px] mx-auto px-6 pt-32 pb-24">
         <h1 className="text-4xl font-bold tracking-tight mb-2">Changelog</h1>
         <p className="text-sm text-dim mb-12">
-          Release notes for Tappit. Format follows{" "}
+          Release notes for TappitX. Format follows{" "}
           <a className="text-accent-light hover:underline" href="https://keepachangelog.com/en/1.1.0/" target="_blank" rel="noopener noreferrer">
             Keep a Changelog
           </a>

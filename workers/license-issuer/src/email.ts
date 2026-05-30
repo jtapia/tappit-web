@@ -34,7 +34,7 @@ export async function sendLicenseEmail(
     body: JSON.stringify({
       from: env.FROM_EMAIL,
       to,
-      subject: "Your Tappit license",
+      subject: "Your TappitX license",
       html,
       text,
     }),

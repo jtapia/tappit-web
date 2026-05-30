@@ -33,7 +33,7 @@ export default function Comparison() {
           <p className="text-xs font-semibold uppercase tracking-widest text-accent-light mb-3">Why you&apos;ll love it</p>
           <h2 className="text-3xl lg:text-4xl font-bold tracking-tight mb-4">A better way to click.</h2>
           <p className="text-lg text-muted max-w-2xl mx-auto">
-            Magic Mouse is beautiful, but clicking it gets tiring. Tappit turns those dozens of daily presses into gentle taps.
+            Magic Mouse is beautiful, but clicking it gets tiring. TappitX turns those dozens of daily presses into gentle taps.
           </p>
         </motion.div>
 

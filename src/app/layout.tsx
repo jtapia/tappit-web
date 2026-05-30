@@ -17,7 +17,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Tappit: Tap-to-click for your Magic Mouse",
+  title: "TappitX: Tap-to-click for your Magic Mouse",
   description:
     "Add trackpad-style tap-to-click to your Apple Magic Mouse. Light, kinder-on-your-hands clicks, smart right-click, and subtle haptics. One-time $2.99 · Zero data collected.",
   metadataBase: new URL(siteUrl),
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: siteUrl,
-    siteName: "Tappit",
-    title: "Tappit: Tap-to-click for your Magic Mouse",
+    siteName: "TappitX",
+    title: "TappitX: Tap-to-click for your Magic Mouse",
     description:
       "Tap instead of press on your Magic Mouse. Smart right-click, subtle haptics, and every thoughtful detail. One-time $2.99.",
     images: [
@@ -46,20 +46,20 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Tappit: tap-to-click for your Apple Magic Mouse",
+        alt: "TappitX: tap-to-click for your Apple Magic Mouse",
       },
       // Square fallback for legacy scrapers.
       {
         url: "/app-icon-large.png",
         width: 512,
         height: 512,
-        alt: "Tappit app icon",
+        alt: "TappitX app icon",
       },
     ],
   },
   twitter: {
     card: "summary",
-    title: "Tappit: Tap-to-click for your Magic Mouse",
+    title: "TappitX: Tap-to-click for your Magic Mouse",
     description:
       "Tap instead of press on your Magic Mouse. Smart right-click, subtle haptics, and every thoughtful detail. One-time $2.99.",
     images: ["/og-image.png"],
@@ -95,7 +95,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              name: "Tappit",
+              name: "TappitX",
               operatingSystem: "macOS 12.0 or later",
               applicationCategory: "UtilitiesApplication",
               softwareVersion: "1.0.0",

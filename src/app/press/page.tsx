@@ -5,15 +5,15 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Press Kit | Tappit",
-  description: "Assets, copy, and fact sheet for writing about Tappit.",
+  title: "Press Kit | TappitX",
+  description: "Assets, copy, and fact sheet for writing about TappitX.",
   alternates: {
     canonical: "/press",
   },
 };
 
 const facts: { label: string; value: string }[] = [
-  { label: "Product", value: "Tappit" },
+  { label: "Product", value: "TappitX" },
   { label: "Category", value: "macOS utility · input / accessibility" },
   { label: "Platform", value: "macOS 12.0 or later (Apple Silicon + Intel)" },
   { label: "Hardware", value: "Apple Magic Mouse (1st and 2nd generation)" },
@@ -31,17 +31,17 @@ const facts: { label: string; value: string }[] = [
 const boilerplates: { length: "One-liner" | "Short" | "Long"; body: string }[] = [
   {
     length: "One-liner",
-    body: "Tappit brings tap-to-click to the Apple Magic Mouse: the feature macOS gives trackpads but not mice.",
+    body: "TappitX brings tap-to-click to the Apple Magic Mouse: the feature macOS gives trackpads but not mice.",
   },
   {
     length: "Short",
     body:
-      "Tappit is a lightweight macOS menu-bar app that turns light surface taps on the Apple Magic Mouse into real clicks. It adds zone- and pressure-based right-click, middle-click, tap-to-drag, multi-finger taps, haptic and sound feedback, and per-app rules: the polish macOS has always given trackpads. One-time purchase, zero network requests.",
+      "TappitX is a lightweight macOS menu-bar app that turns light surface taps on the Apple Magic Mouse into real clicks. It adds zone- and pressure-based right-click, middle-click, tap-to-drag, multi-finger taps, haptic and sound feedback, and per-app rules: the polish macOS has always given trackpads. One-time purchase, zero network requests.",
   },
   {
     length: "Long",
     body:
-      "Every MacBook trackpad has tap-to-click. The Apple Magic Mouse doesn't, and pressing the mouse body hundreds of times a day is tiring and loud. Tappit fixes that by reading raw multitouch data from the Magic Mouse at 60–120 Hz and injecting synthetic clicks at the HID level, indistinguishable from a real press. Beyond tap-to-click, Tappit delivers zone-based and pressure-based right-click, a configurable middle-click zone, multi-finger tap actions, tap-to-drag, per-edge dead zones, palm rejection, haptic and sound feedback, per-app right-click rules, custom scroll sensitivity, battery monitoring for Magic Mouse 2, and start-on-login via the native SMAppService API. Built in native Swift, sandbox-free (required for the private multitouch framework) but hardened, ~5 MB in memory, and makes zero network requests: all touch data stays on the device. Distributed direct at one-time US $2.99, offline Ed25519-signed license activation, and Sparkle-based auto-updates.",
+      "Every MacBook trackpad has tap-to-click. The Apple Magic Mouse doesn't, and pressing the mouse body hundreds of times a day is tiring and loud. TappitX fixes that by reading raw multitouch data from the Magic Mouse at 60–120 Hz and injecting synthetic clicks at the HID level, indistinguishable from a real press. Beyond tap-to-click, TappitX delivers zone-based and pressure-based right-click, a configurable middle-click zone, multi-finger tap actions, tap-to-drag, per-edge dead zones, palm rejection, haptic and sound feedback, per-app right-click rules, custom scroll sensitivity, battery monitoring for Magic Mouse 2, and start-on-login via the native SMAppService API. Built in native Swift, sandbox-free (required for the private multitouch framework) but hardened, ~5 MB in memory, and makes zero network requests: all touch data stays on the device. Distributed direct at one-time US $2.99, offline Ed25519-signed license activation, and Sparkle-based auto-updates.",
   },
 ];
 
@@ -86,7 +86,7 @@ export default function PressKit() {
       <main id="main-content" className="max-w-[900px] mx-auto px-6 pt-32 pb-24">
         <header className="mb-16">
           <p className="text-xs font-semibold uppercase tracking-widest text-accent-light mb-3">Press Kit</p>
-          <h1 className="text-4xl lg:text-5xl font-bold tracking-tight mb-4">Writing about Tappit?</h1>
+          <h1 className="text-4xl lg:text-5xl font-bold tracking-tight mb-4">Writing about TappitX?</h1>
           <p className="text-lg text-muted leading-relaxed max-w-2xl">
             Everything you need in one place: boilerplate copy at three lengths, the fact sheet, downloadable logo
             assets, brand colors, and screenshots as they become available. Reach us at{" "}
@@ -152,7 +152,7 @@ export default function PressKit() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             <div className="rounded-xl border border-border bg-card p-6">
               <div className="flex items-center justify-center h-36 bg-surface rounded-lg mb-4">
-                <Image src="/app-icon.png" alt="Tappit app icon" width={64} height={64} className="rounded-xl shadow-md shadow-accent/10" />
+                <Image src="/app-icon.png" alt="TappitX app icon" width={64} height={64} className="rounded-xl shadow-md shadow-accent/10" />
               </div>
               <p className="text-sm font-semibold">App icon · 64×64</p>
               <p className="text-xs text-dim mt-1 mb-4">PNG with transparency</p>
@@ -169,7 +169,7 @@ export default function PressKit() {
             </div>
             <div className="rounded-xl border border-border bg-card p-6">
               <div className="flex items-center justify-center h-36 bg-surface rounded-lg mb-4">
-                <Image src="/app-icon-large.png" alt="Tappit app icon (large)" width={96} height={96} className="rounded-2xl shadow-md shadow-accent/10" />
+                <Image src="/app-icon-large.png" alt="TappitX app icon (large)" width={96} height={96} className="rounded-2xl shadow-md shadow-accent/10" />
               </div>
               <p className="text-sm font-semibold">App icon · 512×512</p>
               <p className="text-xs text-dim mt-1 mb-4">PNG with transparency, suitable for print</p>

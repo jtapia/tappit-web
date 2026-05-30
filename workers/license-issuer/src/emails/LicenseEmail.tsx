@@ -32,7 +32,7 @@ export default function LicenseEmail({
   return (
     <Html>
       <Head />
-      <Preview>Your Tappit license is ready — activate on your Mac.</Preview>
+      <Preview>Your TappitX license is ready — activate on your Mac.</Preview>
       <Tailwind>
         <Body className="bg-[#f5f5f7] font-sans m-0 py-8">
           <Container className="bg-white rounded-2xl max-w-[560px] mx-auto overflow-hidden border border-black/[0.06]">
@@ -44,7 +44,7 @@ export default function LicenseEmail({
             >
               <Img
                 src="https://gettappit.com/app-icon.png"
-                alt="Tappit"
+                alt="TappitX"
                 width={64}
                 height={64}
                 style={{
@@ -57,14 +57,14 @@ export default function LicenseEmail({
                 You&apos;re in.
               </Heading>
               <Text className="text-white/85 text-base mt-1 mb-0 leading-relaxed">
-                Welcome to Tappit.
+                Welcome to TappitX.
               </Text>
             </Section>
 
             <Section className="px-8 py-8">
               <Text className="text-[#101010] text-base leading-relaxed m-0">
-                Thanks for buying Tappit! We&apos;ve issued the license tied to{" "}
-                <strong>{recipientEmail}</strong>. To activate Tappit on your Mac,
+                Thanks for buying TappitX! We&apos;ve issued the license tied to{" "}
+                <strong>{recipientEmail}</strong>. To activate TappitX on your Mac,
                 paste the license key below.
               </Text>
 
@@ -91,7 +91,7 @@ export default function LicenseEmail({
                   {signedLicenseToken}
                 </Text>
                 <Text className="text-[#757578] text-xs mt-2 mb-0 leading-relaxed">
-                  The activation token is used by Tappit automatically, you only
+                  The activation token is used by TappitX automatically, you only
                   need to enter the license key.
                 </Text>
               </Section>
@@ -110,7 +110,7 @@ export default function LicenseEmail({
                   num="1"
                   text={
                     <>
-                      Open Tappit on the Mac you want to activate. From the menu
+                      Open TappitX on the Mac you want to activate. From the menu
                       bar icon, choose <strong>Preferences → License</strong>.
                     </>
                   }

@@ -9,15 +9,15 @@ const faqs = [
   },
   {
     q: "Is this a subscription?",
-    a: "Nope. One-time purchase. Pay $2.99 once and Tappit is yours, including all future updates. No recurring charge, no account.",
+    a: "Nope. One-time purchase. Pay $2.99 once and TappitX is yours, including all future updates. No recurring charge, no account.",
   },
   {
     q: "Will I need to give any permissions?",
-    a: "Just one: Accessibility. macOS requires it for any app that creates mouse clicks. Tappit walks you through enabling it on first launch. It takes about 10 seconds.",
+    a: "Just one: Accessibility. macOS requires it for any app that creates mouse clicks. TappitX walks you through enabling it on first launch. It takes about 10 seconds.",
   },
   {
     q: "Does it change my regular mouse settings?",
-    a: "No. Tappit works alongside System Settings without touching them. Your scroll speed, tracking speed, and Magic Mouse gestures all stay exactly as they were.",
+    a: "No. TappitX works alongside System Settings without touching them. Your scroll speed, tracking speed, and Magic Mouse gestures all stay exactly as they were.",
   },
   {
     q: "Can I tune how sensitive a tap needs to be?",
@@ -32,20 +32,20 @@ const faqs = [
     a: "Absolutely. In Preferences, set your dominant hand to Left. Right-click moves to the left side, left-click to the right. One setting, done.",
   },
   {
-    q: "Is Tappit good for RSI or one-handed use?",
-    a: "Many people use it for exactly that. Tap-to-click removes the press, pressure right-click avoids modifier-key chords, and dead zones stop accidental taps where your hand rests. Tappit isn't certified assistive tech, but the lighter touch helps if hard clicking is uncomfortable.",
+    q: "Is TappitX good for RSI or one-handed use?",
+    a: "Many people use it for exactly that. Tap-to-click removes the press, pressure right-click avoids modifier-key chords, and dead zones stop accidental taps where your hand rests. TappitX isn't certified assistive tech, but the lighter touch helps if hard clicking is uncomfortable.",
   },
   {
     q: "Will it conflict with Bartender, Ice, or Hidden Bar?",
-    a: "No. Tappit is a well-behaved menu bar app and works alongside every popular menu bar manager.",
+    a: "No. TappitX is a well-behaved menu bar app and works alongside every popular menu bar manager.",
   },
   {
     q: "How do I quickly turn it off?",
-    a: "Several ways. Click the menu bar icon, use the keyboard shortcut (⌃⌥⌘T by default, rebindable), or ask Siri to \"Toggle Tappit.\" You can also wire it into any Shortcuts workflow or trigger it from Spotlight.",
+    a: "Several ways. Click the menu bar icon, use the keyboard shortcut (⌃⌥⌘T by default, rebindable), or ask Siri to \"Toggle TappitX.\" You can also wire it into any Shortcuts workflow or trigger it from Spotlight.",
   },
   {
     q: "Do I need to turn off Smart Zoom?",
-    a: "Yes. macOS Smart Zoom uses double-tap on the mouse surface, which conflicts with Tappit's double-tap. The first-launch guide detects this and walks you through disabling it in System Settings. It takes five seconds.",
+    a: "Yes. macOS Smart Zoom uses double-tap on the mouse surface, which conflicts with TappitX's double-tap. The first-launch guide detects this and walks you through disabling it in System Settings. It takes five seconds.",
   },
   {
     q: "What if I change my mind?",

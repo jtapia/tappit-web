@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
-    <title>Tappit Changelog</title>
+    <title>TappitX Changelog</title>
     <link>https://gettappit.com/appcast.xml</link>
 
-    <!-- Add a new <item> here for each release. Most recent release first. -->
+    <!-- Add a new <item> here for each release. Most recent release first.
+         After running scripts/release.sh in the app repo, replace TODO
+         markers below with sparkle:edSignature and length from
+         build/appcast-snippet.xml, then uncomment the block. -->
     <!--
     <item>
-      <title>Tappit 1.0.1</title>
-      <pubDate>Fri, 17 Apr 2026 20:00:00 +0000</pubDate>
-      <sparkle:version>2</sparkle:version>
-      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <title>TappitX 1.0.0</title>
+      <pubDate>TODO_PUBDATE</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-      <sparkle:releaseNotesLink>https://gettappit.com/release-notes/1.0.1.html</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://gettappit.com/release-notes/1.0.0.html</sparkle:releaseNotesLink>
       <enclosure
-        url="https://github.com/YOUR_USERNAME/Tappit/releases/download/v1.0.1/Tappit-1.0.1.dmg"
-        sparkle:edSignature="PASTE_SIGNATURE_FROM_sign_update"
-        length="FILESIZE_IN_BYTES"
+        url="https://github.com/jtapia/TappitX/releases/download/v1.0.0/TappitX-1.0.0.dmg"
+        sparkle:edSignature="TODO_SIGNATURE"
+        length="TODO_LENGTH"
         type="application/octet-stream"/>
     </item>
     -->

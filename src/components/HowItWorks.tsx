@@ -16,7 +16,7 @@ const steps = [
   },
   {
     number: "02",
-    title: "Tappit reads the tap",
+    title: "TappitX reads the tap",
     desc: "It figures out whether you meant left, right, or middle click from where you tapped and how firmly. Pick the style that feels best. It's up to you.",
     icon: (
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -53,7 +53,7 @@ export default function HowItWorks() {
             Three steps. Zero presses.
           </h2>
           <p className="text-lg text-muted max-w-2xl mx-auto">
-            Your Magic Mouse already senses your finger. Tappit just lets macOS know what those touches mean.
+            Your Magic Mouse already senses your finger. TappitX just lets macOS know what those touches mean.
           </p>
         </motion.div>
 

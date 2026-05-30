@@ -99,7 +99,7 @@ export default function Pricing() {
               rel={isExternalStripeLink ? "noopener noreferrer" : undefined}
               className="block text-center gradient-bg text-white px-6 py-3.5 rounded-xl font-semibold shadow-lg shadow-accent/25 hover:shadow-accent/40 hover:-translate-y-0.5 transition-all"
             >
-              Buy Tappit
+              Buy TappitX
             </a>
           </div>
         </motion.div>

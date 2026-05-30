@@ -141,7 +141,7 @@ function headline(state: State): React.ReactNode {
       return (
         <>
           Setting up your{" "}
-          <span className="gradient-text">Tappit license</span>
+          <span className="gradient-text">TappitX license</span>
         </>
       );
     case "ready":
@@ -149,7 +149,7 @@ function headline(state: State): React.ReactNode {
         <>
           You&apos;re in.
           <br />
-          <span className="gradient-text">Welcome to Tappit.</span>
+          <span className="gradient-text">Welcome to TappitX.</span>
         </>
       );
     case "timeout":
@@ -181,7 +181,7 @@ function subhead(state: State): string {
     case "loading":
       return `Issuing your activation key (attempt ${state.attempt + 1} of ${MAX_ATTEMPTS}). This usually takes a couple of seconds.`;
     case "ready":
-      return `Your full license key has been emailed to ${state.info.email}. Open the email on the Mac you want to activate, then paste the key into Tappit → Preferences → License.`;
+      return `Your full license key has been emailed to ${state.info.email}. Open the email on the Mac you want to activate, then paste the key into TappitX → Preferences → License.`;
     case "timeout":
       return "Your license is on its way. The email should arrive in a few minutes — if it doesn't show up, check spam or contact support and we'll resend it.";
     case "missingSessionId":

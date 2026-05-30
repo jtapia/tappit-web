@@ -4,7 +4,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Page Not Found | Tappit",
+  title: "Page Not Found | TappitX",
 };
 
 export default function NotFound() {

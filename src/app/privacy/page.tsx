@@ -4,8 +4,8 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Tappit",
-  description: "Tappit collects no personal data. Everything stays on your Mac.",
+  title: "Privacy Policy | TappitX",
+  description: "TappitX collects no personal data. Everything stays on your Mac.",
 };
 
 export default function PrivacyPolicy() {
@@ -29,14 +29,14 @@ export default function PrivacyPolicy() {
           <h1 className="text-4xl lg:text-5xl font-bold tracking-tight mb-3">Privacy Policy</h1>
           <p className="text-sm text-dim mb-6">Last updated April 18, 2026</p>
           <p className="prose-lead">
-            Tappit is designed with privacy as a core principle. This policy explains what data we collect, and more importantly, what we don&apos;t.
+            TappitX is designed with privacy as a core principle. This policy explains what data we collect, and more importantly, what we don&apos;t.
           </p>
         </header>
 
         <article className="prose-section">
           <h2>No data collection</h2>
           <p>
-            Tappit does not collect, store, transmit, or share any personal information. The app makes <strong>zero network requests</strong> of any kind. There are no analytics, no crash reporters, no telemetry, and no third-party SDKs.
+            TappitX does not collect, store, transmit, or share any personal information. The app makes <strong>zero network requests</strong> of any kind. There are no analytics, no crash reporters, no telemetry, and no third-party SDKs.
           </p>
 
           <h2>What stays on your device</h2>
@@ -55,32 +55,32 @@ export default function PrivacyPolicy() {
 
           <h2>Touch data</h2>
           <p>
-            Tappit reads raw multitouch data from your Magic Mouse&apos;s capacitive surface to detect taps. This data (finger position, contact area, duration) is processed entirely in memory and in real time. It is never recorded, stored to disk, or transmitted anywhere.
+            TappitX reads raw multitouch data from your Magic Mouse&apos;s capacitive surface to detect taps. This data (finger position, contact area, duration) is processed entirely in memory and in real time. It is never recorded, stored to disk, or transmitted anywhere.
           </p>
 
           <h2>Accessibility permission</h2>
           <p>
-            Tappit requires macOS Accessibility permission to inject synthetic mouse click events. This permission is used exclusively for click injection and is never used to read screen content, monitor keystrokes, or access any other application data.
+            TappitX requires macOS Accessibility permission to inject synthetic mouse click events. This permission is used exclusively for click injection and is never used to read screen content, monitor keystrokes, or access any other application data.
           </p>
 
           <h2>Third-party services</h2>
           <p>
-            Tappit includes no third-party analytics, advertising, or tracking frameworks. The app is fully self-contained.
+            TappitX includes no third-party analytics, advertising, or tracking frameworks. The app is fully self-contained.
           </p>
 
           <h2>Purchase data</h2>
           <p>
-            Purchases are processed by Stripe. Tappit does not receive or store your payment information. Please refer to <a href="https://stripe.com/privacy" target="_blank" rel="noopener noreferrer">Stripe&apos;s Privacy Policy</a> for details on how they handle payment data.
+            Purchases are processed by Stripe. TappitX does not receive or store your payment information. Please refer to <a href="https://stripe.com/privacy" target="_blank" rel="noopener noreferrer">Stripe&apos;s Privacy Policy</a> for details on how they handle payment data.
           </p>
 
           <h2>Children&apos;s privacy</h2>
           <p>
-            Tappit does not knowingly collect any information from anyone, including children under 13.
+            TappitX does not knowingly collect any information from anyone, including children under 13.
           </p>
 
           <h2>Changes to this policy</h2>
           <p>
-            If we update this policy, we&apos;ll post the revised version on this page with a new &ldquo;Last updated&rdquo; date. Since Tappit makes no network requests, we can&apos;t notify you in-app.
+            If we update this policy, we&apos;ll post the revised version on this page with a new &ldquo;Last updated&rdquo; date. Since TappitX makes no network requests, we can&apos;t notify you in-app.
           </p>
 
           <h2>Contact</h2>

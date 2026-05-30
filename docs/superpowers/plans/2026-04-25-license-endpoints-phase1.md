@@ -482,17 +482,17 @@ export async function sendLicenseEmail(
     body: JSON.stringify({
       from: env.FROM_EMAIL,
       to,
-      subject: "Your Tappit license",
+      subject: "Your TappitX license",
       text:
-        `Thanks for buying Tappit!\n\n` +
+        `Thanks for buying TappitX!\n\n` +
         `Email:        ${to}\n` +
         `License key:  ${rawLicenseKey}\n` +
         `Activation:   ${signedLicenseToken}\n\n` +
         `To activate:\n` +
-        `  1. Open Tappit → Preferences → License\n` +
+        `  1. Open TappitX → Preferences → License\n` +
         `  2. Enter your email and license key above\n` +
         `  3. Click Activate (the app uses the activation token automatically)\n\n` +
-        `You can activate Tappit on up to 3 devices with this license.\n` +
+        `You can activate TappitX on up to 3 devices with this license.\n` +
         `Keep this email — it's your proof of purchase.\n` +
         `Questions? Reply to this email or write to ${env.SUPPORT_EMAIL}.`,
     }),
@@ -1070,7 +1070,7 @@ git commit -m "feat(license-issuer): /activate handler enforcing 3-device cap"
 Rewrite `workers/license-issuer/src/index.ts`:
 ```ts
 /**
- * Tappit license issuer.
+ * TappitX license issuer.
  *
  * Routes:
  *   POST /webhook           Stripe checkout.session.completed → issue license
@@ -1236,7 +1236,7 @@ import type { Metadata } from "next";
 import SuccessClient from "./SuccessClient";
 
 export const metadata: Metadata = {
-  title: "Payment confirmed — Tappit",
+  title: "Payment confirmed — TappitX",
   robots: { index: false, follow: false },
 };
 
