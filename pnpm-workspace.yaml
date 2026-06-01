@@ -1,5 +1,18 @@
+# Native deps with install/build scripts. pnpm v10+ blocks build scripts by
+# default and errors (ERR_PNPM_IGNORED_BUILDS) in CI unless every such package
+# has an EXPLICIT allowBuilds decision (true = run its build, false = skip it).
+# Omitting a package is treated as undecided and still fails the install.
+#
+# sharp is explicitly false: the site is a static export (next.config.ts →
+# output:"export", images:{unoptimized:true}), so image optimization never runs
+# and sharp's native binary is unused. Building it from source breaks CI
+# (node-gyp/node-addon-api), so we skip it deliberately.
+allowBuilds:
+  esbuild: true
+  sharp: false
+  unrs-resolver: true
+  workerd: true
 onlyBuiltDependencies:
   - esbuild
-  - sharp
   - unrs-resolver
   - workerd
