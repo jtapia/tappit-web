@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useCtaHref } from "@/hooks/useCta";
 
 const proofItems = [
   { label: "Risk-free", value: "30-day refund" },
@@ -10,7 +9,7 @@ const proofItems = [
 ] as const;
 
 export default function Hero() {
-  const primaryHref = useCtaHref();
+  const primaryHref = "#pricing";
   return (
     <section className="min-h-screen flex items-center pt-[60px]">
       <div className="max-w-[1120px] mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center py-20">
