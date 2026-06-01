@@ -74,25 +74,29 @@ export default function LicenseEmail({
                 </Text>
                 <Text
                   style={{ fontFamily: '"SF Mono", "Fira Code", monospace' }}
-                  className="text-[#101010] text-base bg-[#f5f5f7] border border-black/[0.06] rounded-xl px-4 py-3 m-0 break-all"
-                >
-                  {rawLicenseKey}
-                </Text>
-              </Section>
-
-              <Section className="mt-5">
-                <Text className="text-[#616166] text-xs font-semibold uppercase tracking-[0.12em] mb-2">
-                  Activation token
-                </Text>
-                <Text
-                  style={{ fontFamily: '"SF Mono", "Fira Code", monospace' }}
                   className="text-[#101010] text-xs bg-[#f5f5f7] border border-black/[0.06] rounded-xl px-4 py-3 m-0 break-all leading-relaxed"
                 >
                   {signedLicenseToken}
                 </Text>
                 <Text className="text-[#757578] text-xs mt-2 mb-0 leading-relaxed">
-                  The activation token is used by TappitX automatically, you only
-                  need to enter the license key.
+                  Copy the whole key — including the dot in the middle — and paste
+                  it into TappitX.
+                </Text>
+              </Section>
+
+              <Section className="mt-5">
+                <Text className="text-[#616166] text-xs font-semibold uppercase tracking-[0.12em] mb-2">
+                  Reference ID
+                </Text>
+                <Text
+                  style={{ fontFamily: '"SF Mono", "Fira Code", monospace' }}
+                  className="text-[#101010] text-base bg-[#f5f5f7] border border-black/[0.06] rounded-xl px-4 py-3 m-0 break-all"
+                >
+                  {rawLicenseKey}
+                </Text>
+                <Text className="text-[#757578] text-xs mt-2 mb-0 leading-relaxed">
+                  Keep this for your records and quote it if you contact support.
+                  You don&apos;t need to enter it into the app.
                 </Text>
               </Section>
 
@@ -120,7 +124,8 @@ export default function LicenseEmail({
                   text={
                     <>
                       Enter your email (<strong>{recipientEmail}</strong>) and
-                      paste the license key from this email.
+                      paste the <strong>license key</strong> above into the
+                      License key field.
                     </>
                   }
                 />
