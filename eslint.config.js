@@ -30,4 +30,19 @@ module.exports = [
       sourceType: "module",
     },
   },
+  {
+    // Node-run scripts (e.g. license-issuer test tooling) use Node globals.
+    files: ["workers/**/scripts/**/*.{js,mjs}"],
+    languageOptions: {
+      ecmaVersion: "latest",
+      sourceType: "module",
+      globals: {
+        process: "readonly",
+        Buffer: "readonly",
+        console: "readonly",
+        TextEncoder: "readonly",
+        TextDecoder: "readonly",
+      },
+    },
+  },
 ];
